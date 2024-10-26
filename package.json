@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.7",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "kowalcity-launcher",
+    "preductname": "kowalcity-launcher",
+    "version": "1.0.0",
+    "description": "Launcher pour le serveur Kowalcity",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
+        "name": "luuxis, perce4, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "http://kowalcity.roleplay.fr",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://cdn.discordapp.com/avatars/210311940025614338/38c97ce92260c12c09c174e43c045b3d.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -22,7 +22,8 @@
         "ignore": "**/test"
     },
     "dependencies": {
-        "electron-updater": "^6.1.8",
+        "electron-updater": "^6.3.9",
+        "kowalcity-launcher": "file:",
         "minecraft-java-core": "^3.10.4",
         "node-bdd": "^2.0.4",
         "node-fetch": "^2.7.0",
@@ -39,6 +40,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/PerceOne/Kowalcity-Launcher.git"
     }
 }
