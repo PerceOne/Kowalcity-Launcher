@@ -1,7 +1,7 @@
 {
     "name": "kowalcity-launcher",
     "preductname": "kowalcity-launcher",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "Launcher pour le serveur Kowalcity",
     "main": "src/app.js",
     "author": {
